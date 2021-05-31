@@ -11,6 +11,18 @@ body {
     background-color: aqua;
 }
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
 /* header */
 
 h1 {
@@ -18,4 +30,17 @@ h1 {
     color: white;
     font-size: 60px;
     margin-top: 30px;
+}
+
+/* main */
+
+.card {
+    height: 300px;
+    width: calc(100%/4 - 40px);
+    background-image: url(../img/pattern.png);
+    background-size: 100%;
+    margin: 20px;
+    border: 2px soldi black;
+    border-radius: 15px;
+    float: left;
 }
