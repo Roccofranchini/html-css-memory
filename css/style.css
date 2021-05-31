@@ -8,7 +8,7 @@
 /* generics */
 
 body {
-    background-color: aqua;
+    background-color: rgb(164, 245, 245);
 }
 
 .container {
@@ -28,7 +28,7 @@ body {
 h1 {
     text-align: center;
     color: white;
-    font-size: 60px;
+    font-size: 65px;
     margin-top: 30px;
 }
 
@@ -43,4 +43,26 @@ h1 {
     border: 2px soldi black;
     border-radius: 15px;
     float: left;
+}
+
+.memory {
+    height: 100%;
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+    padding-bottom: 50px;
+}
+
+.card  img {
+    height: 90%;
+
+}
+
+.card:hover .memory{
+    display: block;
+
+
 }
