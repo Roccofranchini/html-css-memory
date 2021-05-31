@@ -85,6 +85,12 @@ h1 {
 
 .card:hover .memory{
     display: block;
+}
 
+/* footer */
 
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
 }
